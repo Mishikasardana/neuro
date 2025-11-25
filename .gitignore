@@ -4,7 +4,6 @@
 *.onnx
 
 # Ignore database
-*.db
 
 # Ignore output folder
 OUTPUT/
