@@ -1,0 +1,11 @@
+﻿flask
+gunicorn
+numpy
+pandas
+scikit-learn
+joblib
+matplotlib
+seaborn
+werkzeug
+requests
+python-dotenv

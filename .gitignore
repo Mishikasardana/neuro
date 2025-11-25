@@ -1,0 +1,25 @@
+# Ignore model files
+*.h5
+*.pt
+*.onnx
+
+# Ignore database
+*.db
+
+# Ignore output folder
+OUTPUT/
+
+# Ignore environment variables
+.env
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Virtual env
+venv/
+env/
+
+# OS junk
+.DS_Store
+Thumbs.db
