@@ -6,7 +6,6 @@ import os
 import sqlite3
 from werkzeug.security import generate_password_hash, check_password_hash
 from flask_cors import CORS
-CORS(app)
 
 
 # --- START OF FIX ---
@@ -21,6 +20,7 @@ import seaborn as sns
 from matplotlib.backends.backend_pdf import PdfPages
 
 app = Flask(__name__)
+CORS(app)
 
 # --- Database Configuration ---
 DATABASE = 'users.db'
