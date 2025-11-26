@@ -9,3 +9,4 @@ seaborn
 werkzeug
 requests
 python-dotenv
+flask-cors
